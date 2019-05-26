@@ -1,0 +1,32 @@
+.funcionalidades{
+    background-color: #2C2F33;
+    padding: 5px;
+}
+
+.funcionalidade-font{
+    font-family: 'AMDRTG';
+}
+
+.funcionalidades__container--color {
+    background-color: white;
+}
+
+.funcionalidades__container {
+    margin-bottom: 20px;
+}
+
+.funcionalidades__caract--borda {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    .funcionalidade-font{
+        font-size: 1.4em;
+    }
+}
+
+@font-face{
+    font-family: 'AMDRTG';
+    src: url('../fontes/AMDRTG.eot');
+}

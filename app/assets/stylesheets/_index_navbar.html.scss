@@ -1,0 +1,43 @@
+.--bgNavBar--color {
+    background-color: rgba(239, 7, 7, 0.75);
+}
+
+.--navBar-link-color {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.--navBar-link-color:hover {
+    color: #c9c9c9;
+}
+
+.hamburger{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+
+
+.logo__titulo--color{
+    color: #fff;
+}
+.logo__titulo--font{
+    font-family: 'AMDRTG';
+}
+
+@media(max-width: 1000px){
+    .bgNav{
+        background-color: rgba(239, 7, 7, 0.75);
+    }
+}
+
+@media(max-width: 600px){
+    .logo__titulo--size{
+        font-size: 1em;
+    }
+}
+
+@font-face{
+    font-family: 'AMDRTG';
+    src: url('../fontes/AMDRTG.eot');
+}

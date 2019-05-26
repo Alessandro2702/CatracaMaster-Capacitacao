@@ -1,0 +1,28 @@
+
+.contato {
+    background-color: #dddddd;
+}
+.contato__icon--position{
+    position: relative;
+    float: left;
+    left: 10vw;
+}
+
+.contato__btn {
+    margin-bottom: 15px;
+}
+
+.contato-font{
+    font-family: 'AMDRTG';
+}
+
+@media (max-width: 768px){
+    .contato__icon--position{
+        left: 25vw;
+    }
+}
+
+@font-face{
+    font-family: 'AMDRTG';
+    src: url('../fontes/AMDRTG.eot');
+}
